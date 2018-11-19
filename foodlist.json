@@ -1,1 +1,21 @@
-{"Foods": []}
+{
+    "Foods": [
+        {
+            "Rice,White": {
+                "calories": "130",
+                "protein": "2.7",
+                "carbs": "28",
+                "fiber": ".4",
+                "unsaturated": ".1",
+                "saturated": ".1",
+                "vitamin a": "0",
+                "vitamin b12": "0",
+                "vitamin b6": "5",
+                "vitamin c": "0",
+                "iron": "1",
+                "magnesium": "3",
+                "potassium": "1"
+            }
+        }
+    ]
+}

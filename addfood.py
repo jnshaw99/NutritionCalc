@@ -5,8 +5,7 @@ class addfood:
         with open('foodlist.json', 'w')as outfile:
             json.dump({'Foods': []}, outfile)
     def add(self):
-        addnew=input('Would you like to add a food?(y,n) ')
-        if(addnew=='y'):
+        if(input('Would you like to add a food?(y,n) ')=='y'):
             with open('foodlist.json') as list:
                 foodlist=json.load(list)
             foodlist['Foods'].append({input('The name: '): {
@@ -15,7 +14,7 @@ class addfood:
                 'carbs': input('Carbs per 100g: '),
                 'fiber': input('Fiber per 100g: '),
                 'unsaturated': input('Grams of unsaturated fat per 100g: '),
-                'staturated': input('Grams of saturated fat per 100g: '),
+                'saturated': input('Grams of saturated fat per 100g: '),
                 'vitamin a': input('Percent Daily of vitamin A per 100g: '),
                 'vitamin b12': input('Percent Daily of vitamin B-12 per 100g: '),
                 'vitamin b6': input('Percent Daily of vitamin B-6 per 100g: '),
@@ -34,6 +33,3 @@ class addfood:
                 check=True
             else:
                 check=False
-a=addfood()
-a.adding()
-            
