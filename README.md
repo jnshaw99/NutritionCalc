@@ -1,3 +1,5 @@
+##WildCard for ENGL 1102
+##
 ##addfood.py
 ##Stores the prompted food into foodlist.json
 ##
